@@ -45,7 +45,7 @@ count_gaps <- function(sequence)
   gap_positions <- grepl("-", sequence)
 
 #Count the number of TRUE values (i.e., gaps)
-num_gaps <- sum(gap_positions)
+num_gaps <- sum("gap_positions")
 
 return(num_gaps)
 
@@ -109,4 +109,5 @@ write.phyDat(Alignment_phyDat, "alignment.fasta", format = "fasta")
 
 
 
-
+a
+a

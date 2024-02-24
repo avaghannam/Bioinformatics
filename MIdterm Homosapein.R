@@ -46,8 +46,8 @@ library("r3dmol")
 
 
 #Reading sequence fasta file 
-# sequences.fasta not present in directory!
-dna_string<- readDNAStringSet("sequences.fasta")
+# sequences.fasta was in a different directory. Make sure to add the correct folder path
+dna_string<- readDNAStringSet("Data/sequences.fasta")
 
 #inputting msa alignment
 msaalignment <- msa(dna_string)
